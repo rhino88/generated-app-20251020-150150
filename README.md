@@ -2,7 +2,7 @@
 
 > An AI-powered application to generate stunning, high-quality videos from simple text prompts, wrapped in a delightful, illustrative user interface.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/rhino88/generated-app-20251020-150150)
 
 ## 🌟 Overview
 
@@ -103,7 +103,7 @@ This project is designed for easy deployment to Cloudflare Pages.
 
 Alternatively, you can deploy directly from your GitHub repository with a single click.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/rhino88/generated-app-20251020-150150)
 
 ## 📂 Project Structure
 
