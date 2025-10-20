@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    /* Brand Colors */
+    --brand-navy: 223 47% 18%;
+    --brand-cream: 0 0% 96%;
+    --brand-coral: 0 100% 71%;
+    /* Core Colors */
+    --background: var(--brand-cream);
+    --foreground: var(--brand-navy);
+    --primary: var(--brand-navy);
+    --primary-foreground: var(--brand-cream);
+    --muted: 0 0% 92%;
+    --muted-foreground: 223 20% 40%;
+    --border: 0 0% 89.8%;
+    --ring: var(--brand-coral);
+    --card: 0 0% 100%;
+    --card-foreground: var(--brand-navy);
+    --popover: 0 0% 100%;
+    --popover-foreground: var(--brand-navy);
+    --secondary: 0 0% 94%;
+    --secondary-foreground: var(--brand-navy);
+    --accent: 0 0% 90%;
+    --accent-foreground: var(--brand-navy);
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --input: 0 0% 89.8%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.75rem;
+  }
+  .dark {
+    /* Brand Colors */
+    --brand-navy: 223 47% 18%;
+    --brand-cream: 0 0% 96%;
+    --brand-coral: 0 100% 71%;
+    /* Core Colors */
+    --background: var(--brand-navy);
+    --foreground: var(--brand-cream);
+    --primary: var(--brand-cream);
+    --primary-foreground: var(--brand-navy);
+    --muted: 223 30% 25%;
+    --muted-foreground: 0 0% 63.9%;
+    --border: 223 30% 25%;
+    --ring: var(--brand-coral);
+    --card: 223 40% 22%;
+    --card-foreground: var(--brand-cream);
+    --popover: 223 40% 22%;
+    --popover-foreground: var(--brand-cream);
+    --secondary: 223 30% 25%;
+    --secondary-foreground: var(--brand-cream);
+    --accent: 223 30% 28%;
+    --accent-foreground: var(--brand-cream);
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --input: 223 30% 25%;
+  }
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    text-rendering: optimizeLegibility;
+  }
+}
